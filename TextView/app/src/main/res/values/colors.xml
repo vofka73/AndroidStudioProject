@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorlavender">#E6E6FA</color>
+    <color name="colorRed">#FD5704</color>
+    <color name="colordeepskyblue">#00BFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorcoral">#FF7F50</color>
+    <color name="colordarkturquoise">#00CED1</color>
+    <color name="colorkhaki">#F0E68C</color>
+</resources>

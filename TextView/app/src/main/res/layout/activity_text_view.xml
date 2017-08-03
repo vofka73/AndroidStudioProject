@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="comrulerofworld.instagram.textview.TextView">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.91"
+            app:srcCompat="@drawable/scre" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IT.Place"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13"
+            android:text='Уникальная профессиональная площадка, созданная на базе крупнейшей ИТ-компании региона SimbirSoft. В IT.Place можно не только повысить квалификацию и расширить круг технологических знаний, но и обменяться опытом, а также получить возможность поработать с экспертами в области разработки программного обеспечения. Кроме того, это отличный старт для будущей карьеры в международной компании SimbirSoft. На курсе вы познакомитесь с различными аспектами Android разработки: верстка экранов по макетам, взаимодействие с сервером и базой данных. Вы узнаете, что такое жизненный цикл Activity и Fragment, и как пережить поворот экрана.
+По окончанию курса у каждого получится полностью готовое Android приложение, написанное собственными руками. Курс будут вести преподаватели-эксперты, имеющие за плечами многолетний опыт разработки под Android и десятки опубликованных в Google Play приложений.'
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/buttonPurple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.79"
+                android:background="@color/colorlavender"
+                android:onClick="onClick"
+                android:text="@string/lavender"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorRed"
+                android:onClick="onClick"
+                android:text="@string/Red"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colordeepskyblue"
+                android:onClick="onClick"
+                android:text="@string/deepskyblue"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
